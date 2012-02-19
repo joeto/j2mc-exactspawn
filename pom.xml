@@ -5,7 +5,7 @@
   <artifactId>j2mc-exactspawn</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>CraftIRC</name>
+  <name>j2mc-exactspawn</name>
   <url>http://www.github.com/joeto/j2mc-exactspawn</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -13,7 +13,7 @@
   <scm>
     <connection>scm:git:git://github.com/joeto/j2mc-exactspawn/j2mc-exactspawn.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/joeto/j2mc-exactspawn/j2mc-exactspawn.git</developerConnection>
-    <url>s://www.github.com/animosity/CraftIRC</url>
+    <url>s://www.github.com/joeto/j2mc-exactspawn</url>
   </scm>
   <repositories>
     <repository>
