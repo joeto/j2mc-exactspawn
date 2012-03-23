@@ -16,11 +16,6 @@ public class Spawn extends JavaPlugin implements Listener {
     }
 
     @Override
-    public void onDisable() {
-
-    }
-
-    @Override
     public void onEnable() {
         this.getServer().getPluginManager().registerEvents(this, this);
     }
