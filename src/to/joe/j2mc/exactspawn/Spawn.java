@@ -24,7 +24,9 @@ public class Spawn extends JavaPlugin implements Listener {
 
     @EventHandler
     public void respawn(PlayerRespawnEvent event) {
-        event.setRespawnLocation(event.getRespawnLocation().getWorld().getSpawnLocation());
+        if (event.getPlayer().getBedSpawnLocation() == null) {
+            event.setRespawnLocation(event.getRespawnLocation().getWorld().getSpawnLocation());
+        }
     }
 
     @Override
